@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEROX | Performance Training for HYROX</title>
+    <meta name="description"
+        content="DEROX turns your training into decisions. Prepare, pace, and execute your HYROX race with precision.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="derox-logo-color-blanco.png" alt="DEROX Logo">
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu"><i class='bx bx-menu'></i></button>
+            <ul class="nav-links">
+                <li><a href="#all-features">Features</a></li>
+                <li><a href="#simulator">Simulator</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="plans.html" class="btn-sm btn-nav-primary">VIEW PLANS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content fade-in">
+            <h1>HYROX is<br>not about<br>training<br>harder.</h1>
+            <p class="subtitle">It’s about knowing how to prepare, how to pace, and how to execute when fatigue shows
+                up.</p>
+            <p class="closing"><img src="derox-logo-gris.png" alt="DEROX Grey Logo" class="inline-logo"> is the app that
+                turns your
+                training into decisions — and decisions into minutes saved on race day.
+            </p>
+            <div class="cta-group">
+                <a href="plans.html" class="btn btn-primary">VIEW PLANS</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <img src="hero-phone.png" alt="DEROX App Interface" class="hero-phone-img">
+        </div>
+    </section>
+
+    <!-- Segmentation Section -->
+    <section class="segmentation" id="features">
+        <div class="container">
+            <div class="grid-2">
+                <!-- First Timers -->
+                <div class="card fade-in">
+                    <h2>Your first HYROX doesn’t have to feel chaotic.</h2>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> Know what’s coming.</li>
+                        <li><i class='bx bx-check'></i> Train with structure.</li>
+                        <li><i class='bx bx-check'></i> Arrive with a realistic goal.</li>
+                        <li><i class='bx bx-check'></i> Finish stronger than you expect.</li>
+                    </ul>
+                    <p class="card-text"><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> gives
+                        you a clear cycle, a daily focus, and a first projection to guide
+                        your preparation.</p>
+                </div>
+
+                <!-- Competitors -->
+                <div class="card fade-in">
+                    <h2>You already train hard. Now train with intention.</h2>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> Understand where you lose time.</li>
+                        <li><i class='bx bx-check'></i> Simulate scenarios before race day.</li>
+                        <li><i class='bx bx-check'></i> Adjust pace, not just volume.</li>
+                        <li><i class='bx bx-check'></i> Turn weaknesses into control.</li>
+                    </ul>
+                    <p class="card-text"><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> helps
+                        you see your race before you run it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Race Simulator -->
+    <section class="simulator" id="simulator">
+        <div class="container">
+            <div class="grid-2 align-center">
+                <div class="text-content fade-in">
+                    <h2>Think your strategy before race day.</h2>
+                    <p class="lead">Don’t guess your race. Simulate it.</p>
+                    <div class="feature-points">
+                        <div class="point">
+                            <h3>Targeting</h3>
+                            <p>Set a target time and see the gap.</p>
+                        </div>
+                        <div class="point">
+                            <h3>Dynamic Adjustments</h3>
+                            <p>Adjust station times and watch the total update live.</p>
+                        </div>
+                        <div class="point">
+                            <h3>Scenarios</h3>
+                            <p>Create conservative, aggressive, or stretch plans.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visual-content fade-in">
+                    <!-- Simulator Mockup Image -->
+                    <div class="mockup-container">
+                        <img src="derox-simulation-mockup-iso.png" alt="Derox Simulation Mockup"
+                            class="simulator-mockup-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Control & Roxzone -->
+    <section class="control">
+        <div class="container">
+            <div class="grid-2 reverse-mobile align-center">
+                <div class="visual-content fade-in">
+                    <!-- Traffic Light UI Visualization -->
+                    <div class="traffic-light-ui">
+                        <div class="station-card green">
+                            <span class="station-name">1000m Run</span>
+                            <div class="light"></div>
+                            <span class="status">ON PACE</span>
+                        </div>
+                        <div class="station-card yellow">
+                            <span class="station-name">Sled Push</span>
+                            <div class="light"></div>
+                            <span class="status">CAUTION</span>
+                        </div>
+                        <div class="station-card red">
+                            <span class="station-name">Wall Balls</span>
+                            <div class="light"></div>
+                            <span class="status">CRITICAL</span>
+                        </div>
+                    </div>
+                    <p class="note-text t-center">This is about control, not ego.</p>
+                </div>
+                <div class="text-content fade-in">
+                    <h2>Know what you control. Fix what slows you down.</h2>
+                    <p class="lead">HYROX is decided station by station. <img src="derox-logo-color-blanco.png"
+                            alt="DEROX" class="inline-logo"> gives you a performance traffic light for
+                        every station.</p>
+                    <ul class="clean-list">
+                        <li>Clear green / yellow / red control signals.</li>
+                        <li>Focus on execution, not comparison.</li>
+                        <li>Simple guidance to improve each station.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flexibility -->
+    <section class="flexibility" id="training">
+        <div class="container t-center mb-50">
+            <h2 class="fade-in">Already have a plan? Or want one built for you?</h2>
+        </div>
+        <div class="container">
+            <div class="split-options grid-2">
+                <div class="option-card fade-in">
+                    <h3>Log your sessions</h3>
+                    <p>Connect with Strava/Wearables. Track consistency, time, and effort.</p>
+                    <div class="icon-row">
+                        <i class='bx bxl-strava'></i>
+                        <i class='bx bx-watch'></i>
+                    </div>
+                </div>
+                <div class="option-card highlight fade-in">
+                    <h3>Get guidance</h3>
+                    <p>Personalized HYROX routines. Daily focus, no overwhelm.</p>
+                    <div class="icon-row">
+                        <i class='bx bx-calendar-check'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Integral -->
+    <section class="equation">
+        <div class="container t-center">
+            <h2 class="fade-in">Training is only part of the equation.</h2>
+            <div class="cycle-container grid-3 fade-in">
+                <div class="cycle-item">
+                    <span class="big-text">Pace</span>
+                    <span class="arrow">&darr;</span>
+                    <p>depends on recovery</p>
+                    <img src="derox-food-portrait.png" alt="Food Scan" class="cycle-img">
+                    <span class="pill">Log nutrition (photo-based)</span>
+                </div>
+                <div class="cycle-item">
+                    <span class="big-text">Recovery</span>
+                    <span class="arrow">&darr;</span>
+                    <p>depends on fuel</p>
+                    <img src="derox-fuel-portrait.png" alt="Fuel Dashboard" class="cycle-img">
+                    <span class="pill">Protect rest days</span>
+                </div>
+                <div class="cycle-item">
+                    <span class="big-text">Execution</span>
+                    <span class="arrow">&darr;</span>
+                    <p>depends on rest</p>
+                    <img src="derox-water-portrait.png" alt="Recovery Dashboard" class="cycle-img">
+                    <span class="pill">Track hydration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI & Social -->
+    <section class="edge">
+        <div class="container">
+            <div class="grid-2">
+                <div class="card ai-card fade-in">
+                    <div class="card-header">
+                        <h3><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> AI</h3>
+                    </div>
+                    <p class="quote">"AI that helps you decide — not overwhelm you."</p>
+                    <ul class="questions">
+                        <li>Where can I realistically cut 2 minutes?</li>
+                        <li>Is this week about load or recovery?</li>
+                    </ul>
+                </div>
+                <div class="card social-card fade-in">
+                    <div class="card-header">
+                        <h3>Community</h3>
+                    </div>
+                    <p class="quote">"Train together. Race your own race."</p>
+                    <p>Share progress without rankings or toxic pressure. Accountability and visibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Features Grid -->
+    <section class="full-features" id="all-features">
+        <div class="container">
+            <h2 class="t-center fade-in mb-50">Everything you need to perform.</h2>
+            <div class="features-grid fade-in">
+                <!-- 1 -->
+                <div class="feature-card">
+                    <h3>Personalized HYROX Prep <span
+                            style="font-size: 0.7em; color: var(--primary-accent); vertical-align: middle;">(premium
+                            only)</span></h3>
+                    <p>Training plans adapted to your level, category, available gear, and race goals.</p>
+                </div>
+                <!-- 2 -->
+                <div class="feature-card">
+                    <h3>Doubles Mode</h3>
+                    <p>Share your training and progress with your partner. Train together, follow the same cycle.</p>
+                </div>
+                <!-- 3 -->
+                <div class="feature-card">
+                    <h3>Race Simulator</h3>
+                    <p>Simulate your full race before race day. Visualize total time, splits, and target pace.</p>
+                </div>
+                <!-- 4 -->
+                <div class="feature-card">
+                    <h3>Race Planner (What-If)</h3>
+                    <p>Create scenarios by adjusting station times. Identify real opportunities to cut efficiency
+                        minutes.</p>
+                </div>
+                <!-- 5 -->
+                <div class="feature-card">
+                    <h3>Past Race Analysis</h3>
+                    <p>Find your official results and analyze them within the simulator. Turn history into actionable
+                        data.</p>
+                </div>
+                <!-- 6 -->
+                <div class="feature-card">
+                    <h3>Strategy Customization</h3>
+                    <p>Define your plan based on your target time, strengths, and weaknesses per station.</p>
+                </div>
+                <!-- 7 -->
+                <div class="feature-card">
+                    <h3>AI Coach</h3>
+                    <p>Smart assistant for training questions, strategy, pacing, and HYROX preparation.</p>
+                </div>
+                <!-- 8 -->
+                <div class="feature-card">
+                    <h3>Wearable Sync</h3>
+                    <p>Automatic logging of training, sleep, and physical activity from your devices.</p>
+                </div>
+                <!-- 9 -->
+                <div class="feature-card">
+                    <h3>Training Analytics</h3>
+                    <p>Visualize key statistics on load, consistency, and progress throughout the cycle.</p>
+                </div>
+                <!-- 10 -->
+                <div class="feature-card">
+                    <h3>Rest & Sleep Analysis</h3>
+                    <p>Evaluate sleep quality and recovery to optimize performance and readiness.</p>
+                </div>
+                <!-- 11 -->
+                <div class="feature-card">
+                    <h3>Hydration Tracking</h3>
+                    <p>Simple, visual control of your daily water intake to ensure optimal hydration.</p>
+                </div>
+                <!-- 12 -->
+                <div class="feature-card">
+                    <h3>Macro Camera (AI)</h3>
+                    <p>Snap a photo of your meal to analyze protein and calories, keeping you on track.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer t-center">
+        <div class="container fade-in">
+            <h2>You don’t become ready on race day.</h2>
+            <p class="sub-footer">You become ready in the weeks before — one decision at a time.</p>
+            <div class="cta-group">
+                <a href="plans.html" class="btn btn-primary">VIEW PLANS</a>
+            </div>
+            <p class="copyright mt-50">&copy; 2026 <img src="derox-logo-color-blanco.png" alt="DEROX"
+                    class="inline-logo">. All rights reserved.</p>
+            <div class="footer-links-container">
+                <a href="terms.html" class="footer-link">Terms and Conditions</a>
+                <span class="separator">|</span>
+                <a href="privacy.html" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
