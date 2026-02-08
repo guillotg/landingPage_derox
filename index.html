@@ -19,11 +19,27 @@
 
 <body>
 
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <img src="assets/images/derox-logo-color-blanco.png" alt="DEROX" class="preloader-logo">
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Cursor Glow -->
+    <div id="cursor-glow"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-content">
             <div class="logo">
-                <img src="derox-logo-color-blanco.png" alt="DEROX Logo">
+                <img src="assets/images/derox-logo-color-blanco.png" alt="DEROX Logo">
             </div>
             <button class="menu-toggle" aria-label="Toggle menu"><i class='bx bx-menu'></i></button>
             <ul class="nav-links">
@@ -40,9 +56,9 @@
         <div class="hero-bg-overlay"></div>
         <div class="container hero-content fade-in">
             <h1>HYROX is<br>not about<br>training<br>harder.</h1>
-            <p class="subtitle">It’s about knowing how to prepare, how to pace, and how to execute when fatigue shows
+            <p class="subtitle">It's about knowing how to prepare, how to pace, and how to execute when fatigue shows
                 up.</p>
-            <p class="closing"><img src="derox-logo-gris.png" alt="DEROX Grey Logo" class="inline-logo"> is the app that
+            <p class="closing"><img src="assets/images/derox-logo-gris.png" alt="DEROX Grey Logo" class="inline-logo"> is the app that
                 turns your
                 training into decisions — and decisions into minutes saved on race day.
             </p>
@@ -51,7 +67,7 @@
             </div>
         </div>
         <div class="hero-image-wrapper">
-            <img src="hero-phone.png" alt="DEROX App Interface" class="hero-phone-img">
+            <img src="assets/images/hero-phone.png" alt="DEROX App Interface" class="hero-phone-img">
         </div>
     </section>
 
@@ -61,14 +77,14 @@
             <div class="grid-2">
                 <!-- First Timers -->
                 <div class="card fade-in">
-                    <h2>Your first HYROX doesn’t have to feel chaotic.</h2>
+                    <h2>Your first HYROX doesn't have to feel chaotic.</h2>
                     <ul class="feature-list">
-                        <li><i class='bx bx-check'></i> Know what’s coming.</li>
+                        <li><i class='bx bx-check'></i> Know what's coming.</li>
                         <li><i class='bx bx-check'></i> Train with structure.</li>
                         <li><i class='bx bx-check'></i> Arrive with a realistic goal.</li>
                         <li><i class='bx bx-check'></i> Finish stronger than you expect.</li>
                     </ul>
-                    <p class="card-text"><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> gives
+                    <p class="card-text"><img src="assets/images/derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> gives
                         you a clear cycle, a daily focus, and a first projection to guide
                         your preparation.</p>
                 </div>
@@ -82,7 +98,7 @@
                         <li><i class='bx bx-check'></i> Adjust pace, not just volume.</li>
                         <li><i class='bx bx-check'></i> Turn weaknesses into control.</li>
                     </ul>
-                    <p class="card-text"><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> helps
+                    <p class="card-text"><img src="assets/images/derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> helps
                         you see your race before you run it.</p>
                 </div>
             </div>
@@ -95,7 +111,7 @@
             <div class="grid-2 align-center">
                 <div class="text-content fade-in">
                     <h2>Think your strategy before race day.</h2>
-                    <p class="lead">Don’t guess your race. Simulate it.</p>
+                    <p class="lead">Don't guess your race. Simulate it.</p>
                     <div class="feature-points">
                         <div class="point">
                             <h3>Targeting</h3>
@@ -114,7 +130,7 @@
                 <div class="visual-content fade-in">
                     <!-- Simulator Mockup Image -->
                     <div class="mockup-container">
-                        <img src="derox-simulation-mockup-iso.png" alt="Derox Simulation Mockup"
+                        <img src="assets/images/derox-simulation-mockup-iso.png" alt="Derox Simulation Mockup"
                             class="simulator-mockup-img">
                     </div>
                 </div>
@@ -149,7 +165,7 @@
                 </div>
                 <div class="text-content fade-in">
                     <h2>Know what you control. Fix what slows you down.</h2>
-                    <p class="lead">HYROX is decided station by station. <img src="derox-logo-color-blanco.png"
+                    <p class="lead">HYROX is decided station by station. <img src="assets/images/derox-logo-color-blanco.png"
                             alt="DEROX" class="inline-logo"> gives you a performance traffic light for
                         every station.</p>
                     <ul class="clean-list">
@@ -197,21 +213,21 @@
                     <span class="big-text">Pace</span>
                     <span class="arrow">&darr;</span>
                     <p>depends on recovery</p>
-                    <img src="derox-food-portrait.png" alt="Food Scan" class="cycle-img">
+                    <img src="assets/images/derox-food-portrait.png" alt="Food Scan" class="cycle-img">
                     <span class="pill">Log nutrition (photo-based)</span>
                 </div>
                 <div class="cycle-item">
                     <span class="big-text">Recovery</span>
                     <span class="arrow">&darr;</span>
                     <p>depends on fuel</p>
-                    <img src="derox-fuel-portrait.png" alt="Fuel Dashboard" class="cycle-img">
+                    <img src="assets/images/derox-fuel-portrait.png" alt="Fuel Dashboard" class="cycle-img">
                     <span class="pill">Protect rest days</span>
                 </div>
                 <div class="cycle-item">
                     <span class="big-text">Execution</span>
                     <span class="arrow">&darr;</span>
                     <p>depends on rest</p>
-                    <img src="derox-water-portrait.png" alt="Recovery Dashboard" class="cycle-img">
+                    <img src="assets/images/derox-water-portrait.png" alt="Recovery Dashboard" class="cycle-img">
                     <span class="pill">Track hydration</span>
                 </div>
             </div>
@@ -224,7 +240,7 @@
             <div class="grid-2">
                 <div class="card ai-card fade-in">
                     <div class="card-header">
-                        <h3><img src="derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> AI</h3>
+                        <h3><img src="assets/images/derox-logo-color-blanco.png" alt="DEROX" class="inline-logo"> AI</h3>
                     </div>
                     <p class="quote">"AI that helps you decide — not overwhelm you."</p>
                     <ul class="questions">
@@ -319,12 +335,12 @@
     <!-- Footer -->
     <footer class="footer t-center">
         <div class="container fade-in">
-            <h2>You don’t become ready on race day.</h2>
+            <h2>You don't become ready on race day.</h2>
             <p class="sub-footer">You become ready in the weeks before — one decision at a time.</p>
             <div class="cta-group">
                 <a href="plans.html" class="btn btn-primary">VIEW PLANS</a>
             </div>
-            <p class="copyright mt-50">&copy; 2026 <img src="derox-logo-color-blanco.png" alt="DEROX"
+            <p class="copyright mt-50">&copy; 2026 <img src="assets/images/derox-logo-color-blanco.png" alt="DEROX"
                     class="inline-logo">. All rights reserved.</p>
             <div class="footer-links-container">
                 <a href="terms.html" class="footer-link">Terms and Conditions</a>
@@ -337,7 +353,7 @@
     <!-- ABG Tech Capital Branding -->
     <a href="https://abgtechcapital.com/" target="_blank" rel="noopener noreferrer" class="brand-badge">
         <span>by</span>
-        <img src="abg-tech-capital-logo.png" alt="ABG Tech Capital Logo">
+        <img src="assets/images/abg-tech-capital-logo.png" alt="ABG Tech Capital Logo">
     </a>
 
     <script src="script.js"></script>
